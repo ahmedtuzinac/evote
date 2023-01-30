@@ -1,6 +1,5 @@
 #rest-django imports
 from django.urls import path, include 
-from rest_framework.authtoken.views import obtain_auth_token
 from rest_framework.routers import DefaultRouter
 #in-app imports 
 from eVote_app.api.views import (CitizenList, PoliticalElectionVote)

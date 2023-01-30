@@ -46,6 +46,7 @@ class UserSerializer(serializers.ModelSerializer): #this is for registration...
         token = Token.objects.create(
             user = user
         )
+    
 
         citizen = Citizen.objects.create(
             user = user,
